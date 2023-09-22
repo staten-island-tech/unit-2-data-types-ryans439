@@ -1,10 +1,10 @@
 x=int(input("Enter a number:"))
-y = ("even")
-z = ("odd")
+e = ("even")
+o = ("odd")
 def oddoreven(x):
     print({x})
     if x % 2 == 0:
-        print(y)
+        print(e)
     else:
-        print(z)
+        print(o)
 oddoreven()
