@@ -1,10 +1,7 @@
-x=int(input("Enter a number:"))
-e = ("even")
-o = ("odd")
-def oddoreven(x):
-    print({x})
-    if x % 2 == 0:
-        print(e)
-    else:
-        print(o)
-oddoreven()
+num=int(input("Enter a number:"))
+
+def eo(x):
+    if (num % 2) == 0:
+        print("even")
+    else: print("odd")
+eo(num)
