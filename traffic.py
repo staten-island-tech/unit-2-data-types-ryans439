@@ -4,12 +4,12 @@ eastbound:bool
 def traffic(x, y):
     print(x)
     print(y)
-    if westbound==True and eastbound==True:
+    if x==True and y==True:
         print("False")
-    elif westbound==True and eastbound==False:
+    elif x==True and y==False:
         print("True")
-    elif westbound==False and eastbound==True:
+    elif x==False and y==True:
         print("True")
-    elif westbound==False and eastbound==False:
+    elif x==False and y==False:
         print("True")
-traffic()
+traffic(True, False)
