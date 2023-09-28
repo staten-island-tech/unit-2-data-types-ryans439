@@ -1,8 +1,9 @@
 westbound:bool
 eastbound:bool
-x=("Is there westbound traffic?")
-y=("Is there eastbound traffic?")
-def traffic():
+
+def traffic(x, y):
+    print(x)
+    print(y)
     if westbound==True and eastbound==True:
         print("False")
     elif westbound==True and eastbound==False:
@@ -11,4 +12,4 @@ def traffic():
         print("True")
     elif westbound==False and eastbound==False:
         print("True")
-traffic(x)
+traffic()
