@@ -7,4 +7,4 @@ def factors(x,y):
                 else:
                        y=y+1
                        factors(x,y)
-factors(997)
+factors(997, 1)
